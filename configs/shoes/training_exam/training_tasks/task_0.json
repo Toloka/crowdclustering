@@ -1,0 +1,59 @@
+{
+    "input_values": {
+        "instructions": "<ol><li>Label three pictures with men's strict shoes with <b>color 1</b>;</li><li>Label one picture with woman's knee-boots using <b>color 2</b>;</li><li>Sport shoes (two pictures) - <b>color 3</b>;</li><li>Two pictures with women's sandals - <b>color 4</b>;</li><li>Women's shoes (two pictures) - <b>color 5</b>.</li></ol>",
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0a061d1b4fe766ed50087439996e4bff.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0aff4fc1edbe6096a9a517092902627f.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/8ca087fe33065d75327cafdb8720204b.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/8f3e4689760d58a7dd755f54b3a35dba.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/353f78ae171cbe8206d485c903e6b1ed.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/446c51e08d8dab6099153fa06dfd9880.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/3843ee804025c478a27e72e9ba1a3e76.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/e6cdf227db8a65b3dbe76d957ae22e25.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/f06d384df4886ec15ff5829d33538747.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/f5243f73b6f468d22e21a99e23c2906c.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "result": [
+                    {
+                        "group": 4
+                    },
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 3
+                    },
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 4
+                    },
+                    {
+                        "group": 5
+                    },
+                    {
+                        "group": 2
+                    },
+                    {
+                        "group": 3
+                    },
+                    {
+                        "group": 5
+                    }
+                ]
+            },
+            "correctness_weight": 1.0
+        }
+    ],
+    "message_on_unknown_solution": "Make sure that you have used the specified colors (keyboard shortcuts) and selected the correct images. The instructions also indicate the number of each group",
+    "infinite_overlap": true,
+    "overlap": null
+}

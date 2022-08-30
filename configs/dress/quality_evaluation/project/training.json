@@ -1,0 +1,8 @@
+{
+    "private_name": "Dress-intruder - training",
+    "may_contain_adult_content": false,
+    "assignment_max_duration_seconds": 300,
+    "training_tasks_in_task_suite_count": 1,
+    "retry_training_after_days": 10,
+    "inherited_instructions": true
+}

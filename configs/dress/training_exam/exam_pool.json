@@ -1,0 +1,86 @@
+{
+    "private_name": "Dresses clustering exam",
+    "may_contain_adult_content": false,
+    "reward_per_assignment": 0.01,
+    "assignment_max_duration_seconds": 600,
+    "defaults": {
+        "default_overlap_for_new_task_suites": 1200
+    },
+    "auto_close_after_complete_delay_seconds": 0,
+    "auto_accept_solutions": false,
+    "auto_accept_period_day": 7,
+    "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": false
+    },
+    "priority": 0,
+    "filter": {
+        "and": [
+            {
+                "or": [
+                    {
+                        "operator": "NE",
+                        "value": "SMARTPHONE",
+                        "key": "device_category",
+                        "category": "computed"
+                    }
+                ]
+            },
+            {
+                "or": [
+                    {
+                        "operator": "EQ",
+                        "value": "BROWSER",
+                        "key": "client_type",
+                        "category": "computed"
+                    }
+                ]
+            },
+            {
+                "or": [
+                    {
+                        "operator": "IN",
+                        "value": "EN",
+                        "key": "languages",
+                        "category": "profile"
+                    }
+                ]
+            }
+        ]
+    },
+    "quality_control": {
+        "training_requirement": {
+            "training_passing_skill_value": 80
+        },
+        "configs": [
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "delta": 1,
+                                "open_pool": true
+                            },
+                            "type": "CHANGE_OVERLAP"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "EQ",
+                                "value": "REJECT",
+                                "key": "assessment_event"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "41f4cc9e-ebca-4bfc-903d-3325b7170e6e",
+                    "type": "ASSIGNMENTS_ASSESSMENT"
+                }
+            }
+        ]
+    },
+    "speed_quality_balance": {
+        "percent": 100,
+        "type": "TOP_PERCENTAGE_BY_QUALITY"
+    },
+    "type": "REGULAR"
+}

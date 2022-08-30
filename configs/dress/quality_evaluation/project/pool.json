@@ -1,0 +1,217 @@
+{
+    "speed_quality_balance": {
+        "percent": 80,
+        "type": "TOP_PERCENTAGE_BY_QUALITY"
+    },
+    "private_name": "Find dress-intruder",
+    "may_contain_adult_content": false,
+    "reward_per_assignment": 0.02,
+    "assignment_max_duration_seconds": 600,
+    "defaults": {
+        "default_overlap_for_new_task_suites": 3
+    },
+    "auto_close_after_complete_delay_seconds": 60,
+    "auto_accept_solutions": true,
+    "auto_accept_period_day": 21,
+    "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": false
+    },
+    "priority": 0,
+    "filter": {
+        "and": [
+            {
+                "or": [
+                    {
+                        "and": [
+                            {
+                                "operator": "IN",
+                                "value": "EN",
+                                "key": "languages",
+                                "category": "profile"
+                            },
+                            {
+                                "key": "26366",
+                                "operator": "EQ",
+                                "value": 100,
+                                "category": "skill"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "or": [
+                    {
+                        "operator": "EQ",
+                        "value": "BROWSER",
+                        "key": "client_type",
+                        "category": "computed"
+                    }
+                ]
+            },
+            {
+                "or": [
+                    {
+                        "operator": "NE",
+                        "value": "SMARTPHONE",
+                        "key": "device_category",
+                        "category": "computed"
+                    }
+                ]
+            }
+        ]
+    },
+    "quality_control": {
+        "training_requirement": {
+            "training_passing_skill_value": 70
+        },
+        "configs": [
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "scope": "PROJECT",
+                                "duration": 1,
+                                "duration_unit": "DAYS",
+                                "private_comment": "Skipped"
+                            },
+                            "type": "RESTRICTION_V2"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "GTE",
+                                "value": 10,
+                                "key": "skipped_in_row_count"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "10a4ceb0-15c9-4d64-a592-b349b2c708d2",
+                    "type": "SKIPPED_IN_ROW_ASSIGNMENTS"
+                }
+            },
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "scope": "PROJECT",
+                                "duration": 10,
+                                "duration_unit": "DAYS",
+                                "private_comment": "MV"
+                            },
+                            "type": "RESTRICTION_V2"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "GTE",
+                                "value": 4,
+                                "key": "total_answers_count"
+                            },
+                            {
+                                "operator": "LT",
+                                "value": 75,
+                                "key": "correct_answers_rate"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "b2213fca-53f5-4f82-84b0-b546859521b2",
+                    "parameters": {
+                        "answer_threshold": 2,
+                        "history_size": 10
+                    },
+                    "type": "MAJORITY_VOTE"
+                }
+            },
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "scope": "POOL",
+                                "duration": 1,
+                                "duration_unit": "DAYS",
+                                "private_comment": "Many assignments"
+                            },
+                            "type": "RESTRICTION_V2"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "GTE",
+                                "value": 250,
+                                "key": "assignments_accepted_count"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "3b28f811-0f2c-4b4b-ba0c-0515194305a5",
+                    "type": "ANSWER_COUNT"
+                }
+            },
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "scope": "ALL_PROJECTS",
+                                "duration": 1,
+                                "duration_unit": "DAYS",
+                                "private_comment": "Fast responses"
+                            },
+                            "type": "RESTRICTION_V2"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "GTE",
+                                "value": 10,
+                                "key": "total_submitted_count"
+                            },
+                            {
+                                "operator": "GTE",
+                                "value": 5,
+                                "key": "fast_submitted_count"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "e03a5037-0391-4c67-873b-38e1738363d7",
+                    "parameters": {
+                        "fast_submit_threshold_seconds": 5,
+                        "history_size": 10
+                    },
+                    "type": "ASSIGNMENT_SUBMIT_TIME"
+                }
+            },
+            {
+                "rules": [
+                    {
+                        "action": {
+                            "parameters": {
+                                "delta": 1,
+                                "open_pool": true
+                            },
+                            "type": "CHANGE_OVERLAP"
+                        },
+                        "conditions": [
+                            {
+                                "operator": "EQ",
+                                "value": "RESTRICTION",
+                                "key": "pool_access_revoked_reason"
+                            }
+                        ]
+                    }
+                ],
+                "collector_config": {
+                    "uuid": "ff98fac8-e39a-4398-b356-227087a37ae8",
+                    "type": "USERS_ASSESSMENT"
+                }
+            }
+        ]
+    }
+}

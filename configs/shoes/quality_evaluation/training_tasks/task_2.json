@@ -1,0 +1,25 @@
+{
+    "input_values": {
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/4d676b88344194aa36267e1c238e425b.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0a061d1b4fe766ed50087439996e4bff.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/d4f8c493afdfc8cbc1e79483e814a65f.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/a2455f67b41bf0c81bb6cb70d15b3c6e.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/029ee3bcbb161a736187f9d31e4798e6.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/2d7a05ba23d527d8f47f1a2e1f8caa2b.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/fad4ad9854e3f9ef78ccbb8c246cfef0.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/9b1a462884293bbc2ea4169b41bd2813.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "answer": "7"
+            },
+            "correctness_weight": 1
+        }
+    ],
+    "message_on_unknown_solution": "Here all the shoes are women's sandals, and only in one picture are men's shoes.",
+    "infinite_overlap": true,
+    "overlap": null
+}

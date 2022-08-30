@@ -1,0 +1,203 @@
+[
+    {
+        "input_values": {
+            "instructions": "In this project you have to group dresses by style, using a color palette. <br> The two pictures here are obviously different dresses. <br><ol><li>Mark the patterned dress with elbow-length sleeves with <b>color 1</b>,</li> <li>Long dress with thin shoulders mark with <b>color 2</b>.</li></ol> <br>To do this, click on the color with the corresponding number or use the hotkeys. <br> <i>Dresses with different styles should be marked with different colors. If the styles are similar, mark them with the same color. </i>",
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/FP021C031-M11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0Q21C0FE-C11@12.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "result": [
+                        {
+                            "group": 2
+                        },
+                        {
+                            "group": 1
+                        }
+                    ]
+                },
+                "correctness_weight": 1.0
+            }
+        ],
+        "message_on_unknown_solution": "Check that you have used the colors for the dresses as instructed.",
+        "infinite_overlap": true,
+        "reserved_for": [],
+        "unavailable_for": [],
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "instructions": "The color of the dress does not matter. You only need to pay attention to the style - tailoring, silhouette, and design. </br> Here we can see two types of dresses: <ol><li>Long tight with sleeves (mark them with <b>color 1</b>),</li> <li>Sleeveless dresses with a puffy skirt (mark them with <b>color 2</b>).</li></ol> <br> <i>Never pay attention to the color of the dress. The only thing that matters is the style. </i>",
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/NM321C04U-C11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TE421C081-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/NM321C04U-K11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TE421C087-K11@12.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "result": [
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 2
+                        },
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 2
+                        }
+                    ]
+                },
+                "correctness_weight": 1.0
+            }
+        ],
+        "message_on_unknown_solution": "Check that you have used the colors for the dresses as instructed.",
+        "infinite_overlap": true,
+        "reserved_for": [],
+        "unavailable_for": [],
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "instructions": "Dresses don't have to be identical in one way. The material of the fabric and <b>small</b> decorations are also not taken into account. There are three groups of dresses according to style: <ol><li>With short sleeves at the elbow (there are 2 of them, mark them with <b>color 1</b>),</li> <li>Sleeveless medium length (there are only 1 of them, mark them with <b>color 1</b>),</li> <li>Three long sleeveless dresses with narrow shoulders (mark them with <b>color 3</b>).</li></ol> <br><i>When comparing do not pay attention to small details, if they are not the main part of the style. Sleeve length matters, you should distinguish 4 groups: sleeveless, shoulder length, elbow length, long sleeves.</i>",
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0921C022-G11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MA321C073-K11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0921C028-H11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/BJ721C03T-K11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GP021C04L-M11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/1VJ21C036-Q11@14.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "result": [
+                        {
+                            "group": 3
+                        },
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 3
+                        },
+                        {
+                            "group": 3
+                        },
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 2
+                        }
+                    ]
+                },
+                "correctness_weight": 1.0
+            }
+        ],
+        "message_on_unknown_solution": "Check that you have used the colors for the dresses as instructed.",
+        "infinite_overlap": true,
+        "reserved_for": [],
+        "unavailable_for": [],
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "instructions": "Material and small details are not taken into account in the comparison. You have to look at the cut, the style, the tailoring.<br><ol><li>Mark the brand logo T-shirt dresses here with <b>color 1</b>,</li> <li>Dresses with shorts with <b>color 2</b>,</li> <li>Tight sleeveless dress with <b>color 3</b>,</li> <li>Dress with a puffy skirt with <b>color 4</b>.</li></ol> <br><i>It's okay if you get a lot of different styles on one page. Sometimes groups consist of a single dress.</i>",
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/1FI21C001-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GP021C054-K11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/C1821C01G-C11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GP021C054-K12@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0Q21C0FS-J11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GLA21C00G-G11@12.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "result": [
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 2
+                        },
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 2
+                        },
+                        {
+                            "group": 3
+                        },
+                        {
+                            "group": 4
+                        }
+                    ]
+                },
+                "correctness_weight": 1.0
+            }
+        ],
+        "message_on_unknown_solution": "Check that you have used the colors for the dresses as instructed.",
+        "infinite_overlap": true,
+        "reserved_for": [],
+        "unavailable_for": [],
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "instructions": "Frequently there are situations where groups consist of a single picture. <br> <ol><li>Mark two sleeveless dresses with a puffy skirt with <b>color 1</b>,</li> <li>the sweater with <b>color 2</b>,</li> <li>Dress with a puffy skirt and elbow-length sleeves with <b>color 3</b>,</li> <li>Sweater dress with <b>color 4</b>,</li> <li>Sleeveless shoulder-length dress with <b>color 5</b>.</li></ol><br><i>If you have successfully completed the training, the exam will become available to you.</i>",
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/HB821C01Q-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M3221CA61-G11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/LK321C04B-E11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/LK321C04C-G11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MQ921C029-Q11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/ON321C0MS-K11@12.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "result": [
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 4
+                        },
+                        {
+                            "group": 1
+                        },
+                        {
+                            "group": 3
+                        },
+                        {
+                            "group": 2
+                        },
+                        {
+                            "group": 5
+                        }
+                    ]
+                },
+                "correctness_weight": 1.0
+            }
+        ],
+        "message_on_unknown_solution": "Check that you have used the colors for the dresses as instructed.",
+        "infinite_overlap": true,
+        "reserved_for": [],
+        "unavailable_for": [],
+        "overlap": null
+    }
+]

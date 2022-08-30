@@ -1,0 +1,25 @@
+{
+    "input_values": {
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0ed61baf462f572642f1f18ca2b62f4e.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/1092b62aca92ba21e19211c0bcaabfd1.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/4d676b88344194aa36267e1c238e425b.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/d4f8c493afdfc8cbc1e79483e814a65f.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/bd6dc3c60de8ed7eea6e77e9c77c0d4a.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/a9e8b53aea2c426844caf4d97e3ac8a7.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0a061d1b4fe766ed50087439996e4bff.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/871dfdade9c42be6fa7041add7bb9e65.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "answer": "5"
+            },
+            "correctness_weight": 1
+        }
+    ],
+    "message_on_unknown_solution": "Here, all the pictures show open shoes, and only one of the closed type.",
+    "infinite_overlap": true,
+    "overlap": null
+}

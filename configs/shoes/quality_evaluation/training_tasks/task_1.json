@@ -1,0 +1,25 @@
+{
+    "input_values": {
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/bd6dc3c60de8ed7eea6e77e9c77c0d4a.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/c196d4d2426a5c98179d63356bd6228a.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/363ed32a99f77895488cc1c56369d2ba.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/e6cdf227db8a65b3dbe76d957ae22e25.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/7ca6b9a1903175f910e7a07237baad5d.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/77e8ca5b1b5e1e9b62e157a6a12076e9.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/ba27b0a2aa3374e006a531d9853d3d87.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/f2997119eb5bd3fe575aee1bfedb588a.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "answer": "4"
+            },
+            "correctness_weight": 1
+        }
+    ],
+    "message_on_unknown_solution": "Here, all shoes are low-ankle, and only one pair is knee-high.",
+    "infinite_overlap": true,
+    "overlap": null
+}

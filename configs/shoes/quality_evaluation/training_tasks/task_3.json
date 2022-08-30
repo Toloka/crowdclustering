@@ -1,0 +1,25 @@
+{
+    "input_values": {
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/9382b5714d80b99483939c275914a4ce.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/aeabe0c43183708367897d8d643efb9d.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/86f8692594fd850c2111fc00f3bdda85.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/925f4077f001c81c574572cbe776ff2c.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/1bc44046cc490073852a4ed05306dfed.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/53a716965f29cc6b56b1011eb121aed5.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/a521569794535fe6648941adef8f2748.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0ff5743ba9e19832c45fd374599e4788.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "answer": "1"
+            },
+            "correctness_weight": 1
+        }
+    ],
+    "message_on_unknown_solution": "All shoes have heels, and only one pair of shoes without heels.",
+    "infinite_overlap": true,
+    "overlap": null
+}

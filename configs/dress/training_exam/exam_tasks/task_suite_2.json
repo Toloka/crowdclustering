@@ -1,0 +1,59 @@
+{
+    "infinite_overlap": false,
+    "overlap": 100,
+    "tasks": [
+        {
+            "input_values": {
+                "images": [
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/1FI21C001-Q11@12.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/LA021C05K-M11@12.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/BO121C03F-K11@10.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/M3221CABM-G12@11.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/C1821C01G-C11@10.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/LM421C00O-K11@2.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/Z1721C01P-J11@12.jpg",
+                    "https://tolokacommunity.blob.core.windows.net/feidegger/LOA21C016-K11@10.jpg"
+                ],
+                "instructions": "<p><ol><li>Label dresses with similar styles using the colors of the palette.</li><li>You do not have to use all 8 colors of the palette (there are 5 groups in this task).</li><li>There may be cases where a group consists of a single picture.</li></ol></p>"
+            },
+            "known_solutions": [
+                {
+                    "output_values": {
+                        "result": [
+                            {
+                                "group": 1
+                            },
+                            {
+                                "group": 3
+                            },
+                            {
+                                "group": 2
+                            },
+                            {
+                                "group": 4
+                            },
+                            {
+                                "group": 1
+                            },
+                            {
+                                "group": 3
+                            },
+                            {
+                                "group": 5
+                            },
+                            {
+                                "group": 4
+                            }
+                        ]
+                    },
+                    "correctness_weight": 1.0
+                }
+            ]
+        }
+    ],
+    "reserved_for": [],
+    "unavailable_for": [],
+    "issuing_order_override": 0.0,
+    "mixed": false,
+    "allow_defaults": true
+}

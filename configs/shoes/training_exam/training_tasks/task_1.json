@@ -1,0 +1,60 @@
+{
+    "input_values": {
+        "instructions": "<br><b>Group shoes by seasonality:</b><ol><li>Label three obviously summer (open) shoes with <b>color 1</b>;</li><li>Label three obviously winter (warm) shoes using <b>color 2</b>;</li><li>Mark other shoes (three sneakers and one casual shoes) with <b>color 3</b>;</li></ol>",
+        "images": [
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0ed61baf462f572642f1f18ca2b62f4e.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/1092b62aca92ba21e19211c0bcaabfd1.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/a2455f67b41bf0c81bb6cb70d15b3c6e.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/fad4ad9854e3f9ef78ccbb8c246cfef0.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/52042da4e233b0a69b23d38a645f52b1.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/f2997119eb5bd3fe575aee1bfedb588a.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/556e4b98b6f1076cb15f04e5933a6a20.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/8ca087fe33065d75327cafdb8720204b.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/3ee6e4d542282fba6d87a8e102841d60.jpg",
+            "https://tlk.s3.yandex.net/relsubstitutes/photos/0a7755cdc811d79a11dd516677c41ade.jpg"
+        ]
+    },
+    "known_solutions": [
+        {
+            "output_values": {
+                "result": [
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 1
+                    },
+                    {
+                        "group": 3
+                    },
+                    {
+                        "group": 3
+                    },
+                    {
+                        "group": 2
+                    },
+                    {
+                        "group": 2
+                    },
+                    {
+                        "group": 3
+                    },
+                    {
+                        "group": 2
+                    },
+                    {
+                        "group": 3
+                    }
+                ]
+            },
+            "correctness_weight": 1.0
+        }
+    ],
+    "message_on_unknown_solution": "Make sure that you have used the specified colors (keyboard shortcuts) and selected the correct images. The instructions also indicate the number of each group",
+
+    "infinite_overlap": true,
+    "overlap": null
+}

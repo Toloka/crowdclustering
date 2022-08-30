@@ -1,0 +1,11 @@
+{
+    "private_name": "Shoes clustering (training)",
+    "may_contain_adult_content": false,
+    "assignment_max_duration_seconds": 600,
+    "mix_tasks_in_creation_order": true,
+    "shuffle_tasks_in_task_suite": false,
+    "training_tasks_in_task_suite_count": 1,
+    "retry_training_after_days": 10,
+    "inherited_instructions": false,
+    "public_instructions": "<div>Look at the&nbsp;<span style=\"font-weight:700\">shoes&nbsp;</span>in the pictures. You need to group them using instruction at the right (see screenshot).<span style=\"font-weight:700\">&nbsp;</span>Shoes of one group&nbsp;must be labeled with the&nbsp;same color.</div><div><br></div><div><i>Note: if you don't see instructions like on screenshot, make sure that you have default 100% zoom on the page (ctrl+0 to set it ).</i></div><div><i>If some images are cropped, change zoom (ctrl+ of ctrl-).<br></i></div><div><br></div><div><img alt=\"\" src=\"https://ic.wampi.ru/2021/08/17/image97e04a86dac394fd.png\"><br></div><div><br></div><div>This is training. Here you'll become familiar with the interface&nbsp;to be able to do more complex tasks.</div><div><span style=\"font-weight:700\">You will be told what to do in the mini-instructions on the page.</span></div><div>Then you have to pass exam without explicitly specified criteria. After this you will get access to the main tasks which are more complex and good paid.</div><div><br></div><div><span style=\"font-weight:700\"><u><font color=\"#2fbf00\">Read the instructions on the page. Good luck!</font></u></span></div>"
+}

@@ -1,0 +1,11 @@
+{
+    "private_name": "Dresses clustering training",
+    "may_contain_adult_content": false,
+    "assignment_max_duration_seconds": 600,
+    "mix_tasks_in_creation_order": true,
+    "shuffle_tasks_in_task_suite": false,
+    "training_tasks_in_task_suite_count": 1,
+    "retry_training_after_days": 3,
+    "inherited_instructions": false,
+    "public_instructions": "In this project you will group dresses by style.<div>The tutorial will introduce you to the interface and teach you how to identify similar pictures.</div><div><br></div><h2><b>Interface</b></h2><div>The main part of the task is taken up by pictures of dresses. The right side of the pictures is the color palette and instructions.</div><div><ul><li>In training, follow the <b>instruction</b> on the right: it describes the key rules and the algorithm for action.<br></li><li><b>The palette </b> is necessary for labeling pictures: similar dresses should be labeled with the same color.</li></ul></div><div><br></div><div><i><b>If you can't see the panel on the right</b>, set the page scale to 100%</i></div><div><i>(ctrl+0 for Windows or \"option\" + \"command\" + \"+\" for Mac OS)</i></div><div><img alt=\"\" src=\"https://ic.wampi.ru/2021/09/13/imagecdd776554866a51c.png\"><br></div>"
+}

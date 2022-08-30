@@ -1,0 +1,63 @@
+{
+    "tasks": [
+        {
+            "input_values": {
+                "instructions": "<p>Follow these instructions:<br><ol><li>Mark shoes of the same style with the same color.</li><li>You do not have to use all the colors (this time, there are only four groups).</li><li>There might be cases where a group has only one image.</li><li>You can take gender into account when grouping, but not color.</li></ol>We will check this exam and the main tasks. Wrong answers will be rejected.</p>",
+                "images": [
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/52042da4e233b0a69b23d38a645f52b1.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/0aff4fc1edbe6096a9a517092902627f.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/1e0cfa93f92c29a1fb30e20c60c2fef9.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/2d5f63a3184919ce7e3e7068cf93da4b.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/e6cdf227db8a65b3dbe76d957ae22e25.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/53a716965f29cc6b56b1011eb121aed5.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/3843ee804025c478a27e72e9ba1a3e76.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/0a7755cdc811d79a11dd516677c41ade.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/f5243f73b6f468d22e21a99e23c2906c.jpg",
+                    "https://tlk.s3.yandex.net/relsubstitutes/photos/ffbece45ac6e8831ca0b0c85b3f531be.jpg"
+                ]
+            },
+            "known_solutions": [
+                {
+                    "output_values": {
+                        "result": [
+                            {
+                                "group": 3
+                            },
+                            {
+                                "group": 1
+                            },
+                            {
+                                "group": 1
+                            },
+                            {
+                                "group": 1
+                            },
+                            {
+                                "group": 4
+                            },
+                            {
+                                "group": 2
+                            },
+                            {
+                                "group": 2
+                            },
+                            {
+                                "group": 3
+                            },
+                            {
+                                "group": 2
+                            },
+                            {
+                                "group": 1
+                            }
+                        ]
+                    },
+                    "correctness_weight": 1.0
+                }
+            ]
+        }
+    ],
+    "issuing_order_override": 0.0,
+    "mixed": false,
+    "allow_defaults": true
+}

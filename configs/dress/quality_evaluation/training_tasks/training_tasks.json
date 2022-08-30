@@ -1,0 +1,177 @@
+[
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TE421C08Z-K11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/4JO21C02S-K12@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/FAA21C012-I11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/Y0121C07C-A11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/FQ321C01J-I11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/AX821CA1T-Q11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MW721C01J-Q11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MQ921C02D-K11@10.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "7"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "Here all dresses have shoulders and only one with narrow shoulders",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/SM421C07Q-B11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/ES421C0GU-K11@11.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GA321C02V-K11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/AN621CAHC-M11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/AN621CADA-A11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/L4221C0BE-Q11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0U21C010-O11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GL921C07U-Q11@10.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "7"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "There is only one dress with long sleeves",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/V1021C0QN-A11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/FR621C099-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/OA221C0CD-K11@8.1.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MM321C034-O11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/QS121C04R-B11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GL921C07Q-Q11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/B0M21C00G-H11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/ZZ121C00V-H11@10.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "2"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "There is only one dress with long sleeves",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MW721C01A-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TG021C003-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/L0U21C021-T11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/LA021C050-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/DI121C04P-K11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/WH921C001-K11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/AN621CACE-O11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/JL121C013-Q11@10.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "5"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "All dresses have a very similar style, and only one dress has shorter sleeves and a special decor",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/CQ421C00V-J11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/IV421C01P-C11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/MW721C01I-G11@10.1.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/ON321C0MC-M11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GLC21C00R-T11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/NM321C05I-Q11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/QS121C04R-B11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/L4221C0CT-G11@14.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "8"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "Here are all dresses with a loose skirt and wide shoulders, and only one - a long tight",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M0921C035-K11@16.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TW121C00R-T11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/SU221C06K-A11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GS121C04L-C11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/LM121C0DS-E11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/L4221C0CS-G11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/CZ921C01A-A11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/TU021C01T-K11@14.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "8"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "All dresses have narrow shoulders, while one has very short sleeves",
+        "infinite_overlap": true,
+        "overlap": null
+    },
+    {
+        "input_values": {
+            "images": [
+                "https://tolokacommunity.blob.core.windows.net/feidegger/VM021C00L-K11@10.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/FF421C05H-A11@14.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/DP621C04W-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/L0J21C00Z-Q11@12.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/PD521C054-T11@2.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/M9121C1LT-K11@19.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/GLA21C00R-Q11@13.jpg",
+                "https://tolokacommunity.blob.core.windows.net/feidegger/WL521C064-Q11@14.jpg"
+            ]
+        },
+        "known_solutions": [
+            {
+                "output_values": {
+                    "answer": "2"
+                },
+                "correctness_weight": 1
+            }
+        ],
+        "message_on_unknown_solution": "There is one dress here, noticeably different in length and style (white)",
+        "infinite_overlap": true,
+        "overlap": null
+    }
+]
