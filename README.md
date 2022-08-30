@@ -7,7 +7,7 @@ Paper: TBD
 ![Dress clustering annotation interface](https://tolokacommunity.blob.core.windows.net/likhobaba-et-al-clustering/dress_interface_no_color.png)
 
 
-## Impementations
+## Implementations
 File [shoes_clustering.ipynb](./shoes_clustering.ipynb) contains Python implementation of the crowdsourced shoes clustering pipeline (including quality evaluation as described in the paper).
 
 
