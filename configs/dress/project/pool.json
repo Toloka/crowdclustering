@@ -6,7 +6,7 @@
     "defaults": {
         "default_overlap_for_new_task_suites": 3
     },
-    "auto_close_after_complete_delay_seconds": 3600,
+    "auto_close_after_complete_delay_seconds": 60,
     "auto_accept_solutions": true,
     "auto_accept_period_day": 21,
     "assignments_issuing_config": {
