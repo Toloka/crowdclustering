@@ -13,6 +13,9 @@ File [shoes_clustering.ipynb](./shoes_clustering.ipynb) contains Python implemen
 
 File [dress_clustering.ipynb](./dress_clustering.ipynb) contains Python implementation of the crowdsourced dress clustering pipeline (including quality evaluation as described in the paper).
 
+## Promo code
+Use promo code CLUST_HCOMP2022 on Toloka to try this demo
+
 ## Citation
 
 ```
