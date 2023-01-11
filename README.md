@@ -1,10 +1,10 @@
-# Obtaining Clusters without Metric Learning
+# Clustering Without Knowing How To: Application and Evaluation
 
 Daniil Likhobaba, Daniil Fedulov, Dmitry Ustalov
 
-This repository contains code for image clustering system described in the paper Obtaining Clusters without Metric Learning (url will be added after publication)
+This repository contains code for image clustering system described in the paper Clustering Without Knowing How To: Application and Evaluation
 
-It is better to try our demo on [Colab](https://colab.research.google.com/drive/1DU_MjysE7aYtxrWOzDE_eULWGKxjeXG0)
+Try our demo on [Colab](https://colab.research.google.com/drive/1DU_MjysE7aYtxrWOzDE_eULWGKxjeXG0)
 
 ![Dress clustering annotation interface](https://tolokacommunity.blob.core.windows.net/likhobaba-et-al-clustering/dress_interface_no_color.png)
 
