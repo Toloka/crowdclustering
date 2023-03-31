@@ -3,9 +3,8 @@
 
 cff-version: 1.2.0
 title: >-
-  Clustering Without Knowing How To: Application and
-  Evaluation
-message: '  If you use this software, please cite the article from   preferred-citation.'
+  Clustering Without Knowing How To: Application and Evaluation
+message: 'If you use this software, please cite the article from preferred-citation.'
 type: software
 authors:
   - given-names: 'Daniil '
