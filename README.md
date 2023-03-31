@@ -21,12 +21,12 @@ File [dress_clustering.ipynb](./dress_clustering.ipynb) contains Python implemen
 message: 'If you use this software, please cite the article from preferred-citation.'
 type: software
 authors:
-  - given-names: 'Daniil '
-    family-names: Likhobaba
-  - given-names: ' Daniil'
-    family-names: Fedulov
-  - given-names: 'Dmitry '
-    family-names: Ustalov
+  - given-names: "Daniil"
+    family-names: "Likhobaba"
+  - given-names: "Daniil"
+    family-names: "Fedulov"
+  - given-names: "Dmitry"
+    family-names: "Ustalov"
 identifiers:
   - type: doi
     value: 10.48550/arXiv.2209.10267
