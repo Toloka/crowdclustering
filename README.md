@@ -15,7 +15,7 @@ File [shoes_clustering.ipynb](./shoes_clustering.ipynb) contains Python implemen
 
 File [dress_clustering.ipynb](./dress_clustering.ipynb) contains Python implementation of the crowdsourced dress clustering pipeline (including quality evaluation as described in the paper).
 
-# Citation
+## Citation
 ```title: >-
   Clustering Without Knowing How To: Application and Evaluation
 message: 'If you use this software, please cite the article from preferred-citation.'
