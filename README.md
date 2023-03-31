@@ -17,9 +17,8 @@ File [dress_clustering.ipynb](./dress_clustering.ipynb) contains Python implemen
 
 # Citation
 ```title: >-
-  Clustering Without Knowing How To: Application and
-  Evaluation
-message: '  If you use this software, please cite the article from   preferred-citation.'
+  Clustering Without Knowing How To: Application and Evaluation
+message: 'If you use this software, please cite the article from preferred-citation.'
 type: software
 authors:
   - given-names: 'Daniil '
