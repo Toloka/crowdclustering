@@ -67,7 +67,7 @@
     },
     {
         "input_values": {
-            "instructions": "Dresses don't have to be identical in one way. The material of the fabric and <b>small</b> decorations are also not taken into account. There are three groups of dresses according to style: <ol><li>With short sleeves at the elbow (there are 2 of them, mark them with <b>color 1</b>),</li> <li>Sleeveless medium length (there are only 1 of them, mark them with <b>color 1</b>),</li> <li>Three long sleeveless dresses with narrow shoulders (mark them with <b>color 3</b>).</li></ol> <br><i>When comparing do not pay attention to small details, if they are not the main part of the style. Sleeve length matters, you should distinguish 4 groups: sleeveless, shoulder length, elbow length, long sleeves.</i>",
+            "instructions": "Dresses don't have to be identical in one way. The material of the fabric and <b>small</b> decorations are also not taken into account. There are three groups of dresses according to style: <ol><li>With short sleeves at the elbow (there are 2 of them, mark them with <b>color 1</b>),</li> <li>Sleeveless medium length (there are only 1 of them, mark them with <b>color 2</b>),</li> <li>Three long sleeveless dresses with narrow shoulders (mark them with <b>color 3</b>).</li></ol> <br><i>When comparing do not pay attention to small details, if they are not the main part of the style. Sleeve length matters, you should distinguish 4 groups: sleeveless, shoulder length, elbow length, long sleeves.</i>",
             "images": [
                 "https://tolokacommunity.blob.core.windows.net/feidegger/M0921C022-G11@12.jpg",
                 "https://tolokacommunity.blob.core.windows.net/feidegger/MA321C073-K11@12.jpg",

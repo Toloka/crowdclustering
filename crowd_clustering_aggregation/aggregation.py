@@ -105,7 +105,7 @@ def generate_prior(data: np.ndarray) -> VdpPrior:
 
 def clustering_aggregation(assignments_raw: pd.DataFrame,
                            input_column: str,
-                           prior: Prior) -> Tuple[Dict[int, List[str]], Dict[int, str]]:
+                           prior: Prior):
     if input_column not in assignments_raw:
         raise ValueError('input_column should be present in DataFrame object')
 
@@ -130,7 +130,7 @@ def clustering_aggregation(assignments_raw: pd.DataFrame,
     for i, x in enumerate(item_clusters):
         cluster_dict[x].append(id_to_img[i])
 
-    return cluster_dict, id_to_img
+    return cluster_dict, id_to_img, clustering_results
 
 
 def draw_cluster(images, plot_filename):
