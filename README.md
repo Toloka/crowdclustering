@@ -16,24 +16,15 @@ File [shoes_clustering.ipynb](./shoes_clustering.ipynb) contains Python implemen
 File [dress_clustering.ipynb](./dress_clustering.ipynb) contains Python implementation of the crowdsourced dress clustering pipeline (including quality evaluation as described in the paper).
 
 ## Citation
-```title: >-
-  Clustering Without Knowing How To: Application and Evaluation
-message: 'If you use this software, please cite the article from preferred-citation.'
-type: software
-authors:
-  - given-names: 'Daniil '
-    family-names: Likhobaba
-  - given-names: ' Daniil'
-    family-names: Fedulov
-  - given-names: 'Dmitry '
-    family-names: Ustalov
-identifiers:
-  - type: doi
-    value: 10.48550/arXiv.2209.10267
-  - type: url
-    value: 'https://arxiv.org/pdf/2209.10267.pdf'
-repository-code: 'https://github.com/Toloka/crowdclustering'
-license: Apache-2.0
+```
+@misc{likhobaba2023clustering,
+      title={Clustering Without Knowing How To: Application and Evaluation}, 
+      author={Daniil Likhobaba and Daniil Fedulov and Dmitry Ustalov},
+      year={2023},
+      eprint={2209.10267},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
 ```
 
 ## Registration and promo-code
