@@ -1,3 +1,7 @@
+# Public archive
+
+This repository is currently in archive and blob links may no longer works
+
 # Clustering Without Knowing How To: Application and Evaluation
 
 Daniil Likhobaba, Daniil Fedulov, Dmitry Ustalov
